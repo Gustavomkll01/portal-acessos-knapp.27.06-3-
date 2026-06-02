@@ -1,0 +1,52 @@
+/* frontend/src/AuthAnimation.css */
+
+/* Define a animação de zoom/pan sutil na imagem de fundo */
+@keyframes backgroundZoomPan {
+    0% {
+        background-position: 0% 0%;
+        background-size: 110%; /* Começa um pouco mais ampliado */
+    }
+    50% {
+        background-position: 10% 10%;
+        background-size: 100%; /* Reduz para o tamanho normal */
+    }
+    100% {
+        background-position: 0% 0%;
+        background-size: 110%;
+    }
+}
+
+.auth-background-animation {
+    /* Define a imagem de fundo */
+    background-image: url('./assets/knapp-login-bg.jpg'); /* !!! IMPORTANTE: Verifique este caminho !!! */
+    background-size: cover; /* Cobre todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    animation: backgroundZoomPan 30s ease-in-out infinite alternate; /* Animação lenta e alternada */
+
+    width: 100%;
+    height: 100vh; /* Ocupa a altura total da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que a animação não crie barras de rolagem */
+
+    /* Opcional: Adicione um overlay escuro para melhorar a legibilidade do formulário */
+    position: relative; /* Necessário para posicionar o overlay */
+}
+
+.auth-background-animation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Overlay escuro (60% de opacidade) */
+    z-index: 0; /* Garante que o overlay fique abaixo do formulário */
+}
+
+/* Estilo para o Paper do formulário de login */
+.auth-form-container {
+    z-index: 1; /* Garante que o formulário fique acima do overlay */
+    position: relative; /* Necessário para zIndex */
+}

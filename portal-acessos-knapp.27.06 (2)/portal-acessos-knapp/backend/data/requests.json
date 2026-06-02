@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1751045630064",
+    "username": "muzica",
+    "password": "$2b$10$t.EeQgbAUHsMBSqqa/R8y..0ghBTMb1jPfM3tK.oB2oNQqCF/QSti",
+    "email": "muzica@empresa.com",
+    "company": "muzicians",
+    "role": "Manager",
+    "status": "approved",
+    "createdAt": "2025-06-27T17:33:50.064Z",
+    "approvedAt": "2025-06-27T17:33:57.859Z",
+    "approvedBy": "admin"
+  },
+  {
+    "id": "1751045681924",
+    "username": "muzica2",
+    "password": "$2b$10$2ehPnopHtiqt/mbYrk3EGu3J7Jpm3rCZWQgLZMUealV.tdjLaDVQe",
+    "email": "muzica2@empresa.com",
+    "company": "muzicians",
+    "role": "Operator",
+    "status": "approved",
+    "createdAt": "2025-06-27T17:34:41.924Z",
+    "approvedAt": "2025-06-27T17:35:48.998Z",
+    "approvedBy": "admin"
+  },
+  {
+    "id": "1751050237882",
+    "username": "muzica1",
+    "password": "$2b$10$6jyT9thZjZ4SzsiLQ5a6mO8/vheSv/RAx9dwEsgEbU1jcfhoU4cUW",
+    "email": "kauantillmann53@gmail.com",
+    "company": "muzicahouse",
+    "role": "Operator",
+    "status": "approved",
+    "createdAt": "2025-06-27T18:50:37.882Z",
+    "approvedAt": "2025-06-27T18:50:55.250Z",
+    "approvedBy": "admin"
+  },
+  {
+    "id": "1762104096898",
+    "username": "marcio",
+    "password": "$2b$10$lAOujfx2HGbTdNMxVHr8ReGUcaLu9yxzKF9MgyW/ogzB0UgnDPSM6",
+    "email": "gustavoananias2014@gmail.com",
+    "company": "sdfjaslkaflsk",
+    "role": "Operator",
+    "status": "approved",
+    "createdAt": "2025-11-02T17:21:36.898Z",
+    "approvedAt": "2025-11-02T17:21:55.744Z",
+    "approvedBy": "admin"
+  },
+  {
+    "id": "1762104298024",
+    "username": "gustavo041",
+    "password": "$2b$10$QKWVrqou08ZYowo.0t5xMengMSnUBCkKaI4A0WNXBmaGfcLeXjYKC",
+    "email": "gustavoananias2014@gmail.com",
+    "company": "gustavomkrl",
+    "role": "Manager",
+    "status": "approved",
+    "createdAt": "2025-11-02T17:24:58.024Z",
+    "approvedAt": "2025-11-02T17:25:23.682Z",
+    "approvedBy": "admin"
+  },
+  {
+    "id": "1762958313557",
+    "username": "gustavo",
+    "password": "$2b$10$rAZhM4QyPxrfDxJseO2NouAmHq5ivC07vRehBJUUIe49PJoIioxFG",
+    "email": "gustavoananias2014@gmail.com",
+    "company": "dsfdsfds",
+    "role": "Manager",
+    "status": "approved",
+    "createdAt": "2025-11-12T14:38:33.557Z",
+    "approvedAt": "2025-11-12T14:39:29.041Z",
+    "approvedBy": "admin"
+  }
+]
